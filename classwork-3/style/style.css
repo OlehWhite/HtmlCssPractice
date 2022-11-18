@@ -1,0 +1,78 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+.h1 {
+  margin: 60px 0;
+  font-size: 48px;
+  font-weight: 700;
+  
+}
+.line {
+  width: 361px;
+  border-bottom: 5px solid #000;
+}
+.header {
+  min-height: 50px;
+  max-height: 103px;
+  text-align: center;
+  color: #0BBBD3;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 20px;
+}
+.header-span {
+  color: #000;
+}
+.banner {
+  height: 852px;
+  background-image: url(../images/sobor.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 218px;
+  box-sizing: border-box;
+  padding-left: 80px;
+}
+.content {
+  box-sizing: border-box;
+  font-size: 64px;
+  padding-left: 59px;
+  padding-top: 1%;
+  height: 388px;
+  color: white;
+  background-image: url(../images/flag.png);
+  background-repeat: no-repeat;
+}
+ul {
+  list-style: none;
+}
+.main {
+  padding: 0 80px;
+}
+.card {
+  border: 1px solid black;
+  width: 30%;
+  color: #030303;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 34px;
+  box-shadow: 0px 4px 6px rgb(0 0 0 / 50%);
+}
+.card_img {
+  width: 100%;
+}
+.card-margin {
+  margin: 0 4.5%;
+}
+.card_titel {
+  font-size: 36px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.card_subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  color: #595050;
+  padding: 10px;
+  box-sizing: border-box;
+}

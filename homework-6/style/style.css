@@ -1,0 +1,142 @@
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #E5E5E5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Global styles */
+
+.h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 64px 0 79px 0;
+}
+.text-block {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #171717;
+}
+
+/* Form */
+
+.form {
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section */
+
+.mandatory {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.information {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.color-red {
+  color: #D83933;
+}
+.section {
+  display: flex;
+  margin-bottom: 21px;
+}
+.section-one {
+  margin-right: 42px;
+}
+.inl-block {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.inp-block {
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 45px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.data-block {
+  background-color: #ADADAD;
+  background-image: url("../images/Vector.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0 10px 0 10px;
+}
+.registration-block {
+  color: #0050D8;
+}
+.checkbox-purged{
+  margin-top: 27px;
+}
+.checkbox-block{
+  width: 24px;
+  height: 24px;
+}
+.checkbox-label {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.last-checkbox {
+  margin-bottom: 27px;
+}
+.border-line {
+  border-bottom: 1px solid #D1D1D1;
+  margin: 40px 0 40px 0;
+}
+.checkbox-purged-inline {
+  display: contents;
+}
+.block-left {
+  margin-left: 40px;
+}
+.section-two {
+  align-items: self-end;
+  margin-right: -46px;
+}
+.color-gray {
+  color: #747474;
+}
+.look-block {
+  background-image: url("../images/Group.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0 10px 0 10px;
+}
+.arrow-down {
+  background-image: url("../images/Vector2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0 10px 0 10px;
+}
+.color-blue {
+  color: #0050D8;
+}
+.btn-section {
+  justify-content: flex-end;
+}
+.btn-block {
+  background-color: #0050D8;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #0050D8;
+  width: 90px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
+  transition: all .6s;
+}
+.btn-block:hover {
+  background-color: white;
+  color: #0050D8;
+  border: 2px solid #0050D8;
+  transition: all .6s;
+}

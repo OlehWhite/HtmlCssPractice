@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(148, 148, 148);
+}
+.blue {
+  background-color: #2137FC;
+  height: 100px;
+  width: 200px;
+}
+.yellow {
+  background-color: #FFCE22;
+  height: 100px;
+  width: 200px;
+}
+.img-one {
+  width: 170px;
+  margin: 52px 26px;
+}
+.header-two {
+  border: 1px solid white;
+  border-radius: 100px;
+  overflow: hidden;
+  width: 200px;
+}
+.img-two {
+  width: 170px;
+  margin: 100px 18px;
+}
+.img-three{
+  width: 150px;
+  margin: 20px 0px;
+}
+.zero {
+  margin: 15px 25px;
+}
+.img-four {
+  width: 150px;
+  margin: 30px 50px;
+}
+.img-five {
+  width: 150px;
+  margin: 50px 25px;
+}
+.dia {
+  margin: 50px 25px;
+}
+.black-pic {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.pic-dia {
+  width: 150px;
+  margin: 25px 25px;
+}
+.pic-uk {
+  width: 50px;
+    margin: -157px 74px;
+}
+
+.black-pic-two {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.pic-dia-two {
+  width: 150px;
+  margin: 15px 25px;
+}
+.pic-uk-two {
+  width: 50px;
+  margin: 5px;
+}
+
+.black-pic-three {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.pic-dia-three {
+  width: 150px;
+  margin: 30px 25px;
+}
+.pic-uk-first {
+  width: 50px;
+  margin: -32px 5px;
+}
+.pic-uk-second {
+  width: 50px;
+  margin: -9px 145px;
+}

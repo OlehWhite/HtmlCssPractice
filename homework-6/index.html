@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <form class="form">
+        <div class="container">
+            <div class="h1">Intake Main Flow</div>
+
+            <div class="mandatory"><span class="color-red">*</span> Mandatory field</div>
+
+            <div class="information">Information</div>
+
+            <div class="section">
+
+                <div class="section-one">
+                    <label class="inl-block text-block" for="items">Intake Type</label>
+                    <select class="inp-block" id="items">
+                        <option value="info 1">Referral</option>
+                        <option value="info 2">Referral 2</option>
+                        <option value="info 3">Referral 3</option>
+                        <option value="info 4">Referral 4</option>
+                    </select>
+                </div>
+
+                <div class="section-one">
+                    <label class="inl-block text-block" for="data-readonly">Enrollment Initiation Date (Optional)</label>
+                    <input class="inp-block data-block" type="date" id="data-readonly" value="2022-05-14" readonly>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-one">
+                    <label class="inl-block" for="phone">Phone</label>
+                    <input  class="inp-block" type="tel" id="phone">
+                </div>
+
+                <div class="section-one">
+                    <label class="inl-block" for="category">Application Category</label>
+                    <select class="inp-block" id="category">
+                        <option value="info 1">Child Support</option>
+                        <option value="info 2">Child Support 2</option>
+                        <option value="info 3">Child Support 3</option>
+                        <option value="info 4">Child Support 4</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-one">
+                    <label class="inl-block" for="email">Email</label>
+                    <input  class="inp-block" type="email" id="email">
+                </div>
+
+                <div class="section-one">
+                    <label class="inl-block " for="data">Enrollment Submission Date</label>
+                    <input class="inp-block data-block" type="date" id="data" value="2022-05-14" readonly>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="registration">Application Registration</label>
+                <select class="inp-block registration-block" id="registration">
+                    <option value="info 1">APP0000116</option>
+                    <option value="info 2">APP0000116 2</option>
+                    <option value="info 3">APP0000116 3</option>
+                    <option value="info 4">APP0000116 4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="data-active">Enrollment Initiation Date (Optional)</label>
+                <input class="inp-block" type="date" id="data-active" value="2022-05-14">
+            </div>
+
+            <div class="checkbox-purged">
+                <input class="checkbox-block" type="checkbox">
+                <label class="checkbox-label">Purged</label>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="numb-remaining">Remaining Days Before Referral is Purged</label>
+                <input  class="inp-block" type="number" id="numb-remaining" value="13">
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-remaining">Exempt from Paternity</label>
+                <select class="inp-block" id="text-remaining">
+                    <option value="info">No</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="payment-date">Fee Payment Date</label>
+                <input  class="inp-block" type="date" id="payment-date" value="2022-05-14">
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-enrollment">Enrollment Status</label>
+                <select class="inp-block" id="text-enrollment">
+                    <option value="info">Worklisted</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="checkbox-purged last-checkbox">
+            <input class="checkbox-block" type="checkbox">
+            <label class="checkbox-label">Application Fee Processed</label>
+        </div>
+
+        <div class="border-line"></div>
+
+        <div class="information">Maternity Information</div>
+
+        <div class="section section-two">
+            <div class="checkbox-purged-inline">
+                <input class="inl-block checkbox-block" type="checkbox">
+                <label class="inp-block checkbox-label">Are you requesting child support child support services for an
+                    unborn child?</label>
+            </div>
+
+            <div class="block-left">
+                <label class="inl-block" for="block-biological">Other known biological parent?</label>
+                <select class="inp-block" id="block-biological">
+                    <option value="info">None</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+                </div>
+        </div>
+
+        <div class="border-line"></div>
+
+        <div class="information">Official Use</div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-paternity">Exempt from Paternity</label>
+                <select class="inp-block" id="text-paternity">
+                    <option value="info">Active IV-A</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-indicator">IV-D Indicator<span class="color-red">*</span></label>
+                <select class="inp-block" id="text-indicator">
+                    <option value="info">Non-IV-D</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-arrears">Arrears Only Indicator</label>
+                <select class="inp-block" id="text-arrears">
+                    <option value="info">Active IV-A</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-intergovernmental" >Intergovernmental Case Category</label>
+                <select class="inp-block color-gray" id="text-intergovernmental">
+                    <option class="color-gray" value="info">None</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-assigned" >Assigned County of Ownership</label>
+                <select class="inp-block color-gray" id="text-assigned">
+                    <option class="color-gray" value="info">None</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-intergovernmental-case" >Intergovernmental Case Type</label>
+                <select class="inp-block color-gray" id="text-intergovernmental-case">
+                    <option class="color-gray" value="info">None</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-status">Intergovermental Case Status</label>
+                <select class="inp-block color-gray" id="text-status">
+                    <option class="color-gray" value="info">None</option>
+                    <option value="info 1">1</option>
+                    <option value="info 2">2</option>
+                    <option value="info 3">3</option>
+                    <option value="info 4">4</option>
+                </select>
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-case-num">Case Number</label>
+                <input class="inp-block color-gray look-block" id="text-case-num" placeholder="Search Case Number">
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-special">Special Handling Indicator for Applicant</label>
+                <input class="inp-block color-gray arrow-down" id="text-special" placeholder="Search Case Number">
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-referral">Referral Number</label>
+                <input class="inp-block color-gray look-block " id="text-referral" placeholder="Search Case Number">
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-handling">Special Handling Indicator for Other Parent</label>
+                <input class="inp-block color-gray arrow-down" id="text-handling" placeholder="None">
+            </div>
+        </div>
+
+        <div class="border-line"></div>
+
+        <div class="information">System Information</div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-one">Special Handling Indicator for Applicant</label>
+                <input class="inp-block look-block text-one" id="text-one" value="Search Input">
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-two">Referral Number</label>
+                <input class="inp-block color-gray look-block" id="text-two" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-one">
+                <label class="inl-block" for="text-three">Worker</label>
+                <input class="inp-block look-block" id="text-three" value="Search Input">
+            </div>
+
+            <div class="section-one">
+                <label class="inl-block" for="text-four">Owner</label>
+                <input class="inp-block color-blue look-block" id="text-four" value="Rajaneesh Banal">
+            </div>
+        </div>
+
+        <div class="border-line"></div>
+
+        <div class="section btn-section">
+            <input class="btn-block" type="submit" value="Next">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        label{
+            width: 200px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+     <form method="POST">
+         <p>
+            <label for="login" accesskey="l">Логин: </label>
+            <input type="text" id="login" />
+        </p>
+
+        <p>
+            <label for="pass" accesskey="p">Пароль:</label> 
+            <input type="password" id="pass" />
+        </p>
+
+        <!-- 
+             input з типом submit надсилає дані на сторінку, вказану в атрибуті action тега form.
+            input з типом reset скидає значення всіх елементів форми початковий стан.
+          -->
+        <p>
+            <input type="reset" value="Сбросить" />
+            <input type="submit" value="Отправить" />
+        </p>
+    </form>
+</body>
+</html>

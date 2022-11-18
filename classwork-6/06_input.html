@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table {
+            width: 80%;
+            height: 600px;
+            font-size: 1.2rem;
+            empty-cells: show;
+            border-collapse: collapse;
+        }
+
+        table,
+        td,
+        tr,
+        th {
+            border: 3px solid black;
+        }
+
+        td:nth-of-type(3) {
+            width: 350px;
+            background: black;
+        }
+
+        input {
+
+            width: 300px;
+            height: 30px;
+        }
+
+        input[type="submit"] {
+            background: rgba(100, 255, 100, 1);
+            border: none;
+            width: 350px;
+            height: 50px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-left: 193px;
+            transition: all .7s;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background: rgba(100, 255, 100, .8);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./index.php" autocomplete="on">
+        <table>
+            <thead>
+                <tr>
+                    <th>Тип</th>
+                    <th>Описание</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>color </td>
+                    <td>Виджет для выбора цвета.</td>
+                    <td><input type="color" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>date</td>
+                    <td>Поле для выбора календарной даты.</td>
+                    <td><input type="date" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>datetime</td>
+                    <td>Указание даты и времени.</td>
+                    <td><input type="datetime" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>datetime-local</td>
+                    <td>Указание местной даты и времени.</td>
+                    <td><input type="datetime-local" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>email</td>
+                    <td>Для адресов электронной почты.</td>
+                    <td><input type="email" placeholder="email@com.ua" required></td>
+                </tr>
+                <tr>
+                    <td>number</td>
+                    <td>Ввод чисел.</td>
+                    <td><input type="number" min="10" max="20" required placeholder="55.95"></td>
+                </tr>
+                <tr>
+                    <td>range</td>
+                    <td>Ползунок для выбора чисел в указанном диапазоне.</td>
+                    <td><input oninput="console.log(this.value)" type="range" placeholder="" value="30" min="1" max="100" step="1"></td>
+                </tr>
+                <tr>
+                    <td>search</td>
+                    <td>Поле для поиска.</td>
+                    <td><input type="search" placeholder="search"></td>
+                </tr>
+                <tr>
+                    <td>tel</td>
+                    <td>Для телефонных номеров.</td>
+                    <td><input type="tel" required placeholder="+380"></td>
+                </tr>
+                <tr>
+                    <td>time</td>
+                    <td>Для времени.</td>
+                    <td><input type="time" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>url</td>
+                    <td>Для веб-адресов.</td>
+                    <td><input type="url" placeholder="https://google.com.ua"></td>
+                </tr>
+                <tr>
+                    <td>month</td>
+                    <td>Выбор месяца.</td>
+                    <td><input type="month" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>week</td>
+                    <td>Выбор недели.</td>
+                    <td><input type="week" placeholder=""></td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="button" value="Отправить">
+    </form>
+
+    <figure>
+        <img src="../../inputs.jpg" alt="">
+        <figcaption>
+            Поддержка браузерами
+            <br>
+            <cite>https://caniuse.com/</cite>
+        </figcaption>
+    </figure>
+
+
+</body>
+
+</html>

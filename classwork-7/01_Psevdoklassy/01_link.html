@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>link</title>
+    <style>
+        a{
+            font-weight: bolder;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+    
+        a:link { /*по умолчанию*/
+            color: black;
+            border-bottom: 1px dashed black;
+        }
+
+        a:visited { /*был переход*/
+            color: red;
+            font-size: 3em;
+        }
+
+        a:hover { /*наведение*/
+            color: green;
+            border-bottom: .07em solid;
+            text-transform: uppercase;
+        }
+
+        a:active { /*клик*/
+            color: yellow;
+            border-bottom: 1px dashed;
+            font-size: 1.5em;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://prog.kiev.ua/java.html">Java</a>
+    <br>
+    <a href="https://prog.kiev.ua/fe.html">Frontend</a>
+    <br>
+    <a href="https://prog.kiev.ua/fe-online.html">Frontend online</a>
+    <br>
+    <a href="https://prog.kiev.ua/java-online.html">Java online</a>
+    <br>
+</body>
+
+</html>

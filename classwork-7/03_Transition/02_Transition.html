@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>transition</title>
+    <meta charset="utf-8" />
+    <style>
+        .block {
+            width: 150px;
+            height: 150px;
+            background-color: #00ff90;
+            /*Свойство, описывающее перевод из одного состояния в другое*/
+            transition: background-color .7s;
+        }
+            /*Cостояние элемента после перехода css.*/
+            .block:hover {
+                background-color: #ff0000;
+            }
+    </style>
+</head>
+<body>
+    <div class="block"></div>
+</body>
+</html>

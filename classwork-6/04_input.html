@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        input.el[type="radio"] {
+            display: none;
+        }
+
+        label {
+            display: block;
+        }
+
+        .el+label>span.radio {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        input.el[type="radio"]:checked+label>span.radio {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h3>Виберіть курси, які бажаєте вивчити:</h3>
+        <p>
+            <input type="checkbox" checked value="html5" />
+            <label>HTML5&amp;CSS3</label>
+        </p>
+        <p>
+            <input type="checkbox" value="bootstrap" id="id" />
+            <label for="id">Bootstrap 5</label>
+        </p>
+        <p>
+            <input type="checkbox" value="js" />
+            <label>JavaScript</label>
+        </p>
+        <p>
+            <input type="checkbox" value="React" />
+            <label>React</label>
+        </p>
+
+        <h3>Выберите удобное для Вас время:</h3>
+        <p>
+            <input type="radio" name="time" value="morning" />
+            <label>09:00 - 11:00</label>
+        </p>
+        <p>
+            <input type="radio" name="time" value="dinner" />
+            <label>11:00 - 15:00</label>
+        </p>
+        <p>
+            <input type="radio" name="time" value="evening" />
+            <label>19:00 - 21:00</label>
+        </p>
+
+        <p>
+            <button type="submit">Отправить данные</button>
+        </p>
+
+        <input type="radio" id="input" class="el">
+        <label for="input"><span class="radio"></span> <span class="text">text</span></label>
+    </form>
+</body>
+
+</html>
